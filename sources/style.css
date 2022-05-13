@@ -1,3 +1,63 @@
+:root{
+    --udg-primary : #b12028;
+    --udg-secundary : #202945
+}
 .navbar-collapse{
     flex-grow: inherit!important;
+}
+.nav-item{
+    font-size: larger;
+}
+h1.line-effect{
+    display: inline-block;
+    position: relative;
+}
+h1.line-effect::after, h1.line-effect::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 10px;
+    background-color: var(--udg-secundary);
+    top: 16px
+}
+
+h1.line-effect::before{
+    left: -210px;
+}
+h1.line-effect::after{
+    right: -210px;
+}
+h2.line-effect{
+    display: inline-block;
+    position: relative;
+}
+h2.line-effect::after, h2.line-effect::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 10px;
+    background-color: var(--udg-primary);
+    top: 16px
+}
+
+h2.line-effect::before{
+    left: -210px;
+}
+h2.line-effect::after{
+    right: -210px;
+}
+p.line{
+    content: "";
+    height: 10px;
+    width: 100%;
+    display: inline-block;
+    background-color: var(--udg-secundary);
+}
+section.section-one{
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+footer.foot-light{
+    padding-top: 10%;
+    background-color: var(--udg-secundary);
 }
