@@ -61,3 +61,6 @@ footer.foot-light{
     padding-top: 10%;
     background-color: var(--udg-secundary);
 }
+p.p-overflow{
+    overflow: scroll;
+}
