@@ -67,6 +67,12 @@ p.p-overflow{
     text-align: justify;
 }
 #card_built{
+    margin-right: 15px;
+    margin-top: 80px;
+    border: none;
+}
+#card_built2{
+    margin-right: 15px;
     margin-top: 80px;
     border: none;
 }
