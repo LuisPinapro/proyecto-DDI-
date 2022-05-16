@@ -62,5 +62,7 @@ footer.foot-light{
     background-color: var(--udg-secundary);
 }
 p.p-overflow{
-    overflow: scroll;
+    overflow: auto;
+    padding-right: 36px;
+    text-align: justify;
 }
