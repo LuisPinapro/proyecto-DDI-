@@ -1,7 +1,9 @@
 const card_built2 = document.getElementById("card_built2");
+const card_built = document.getElementById("card_built");
 
 function noneInfo(){
     card_built2.textContent = " ";
+    card_built.textContent = " ";
 };
 function viewInfoMad(){
     noneInfo();
@@ -22,5 +24,27 @@ function viewInfoCer(){
 function viewInfoTex(){
     noneInfo();
     card_built2.innerHTML = "<img src='./sources/img/Planta baja/textiles.jpg' class = 'card-img-top' alt='img_tex'><div class='card-body' id='card_body'> <h5 class='card-title' id='title-built'>Taller de Textiles</h5> <p class='card-text' id='text-built'>En nuestro laboratorio de aplicaciones técnicas podemos simular y reproducir procesos textil-químicos a escala piloto. Al hacerlo, incluimos todos los procesos de la química textil, como el pretratamiento, tintura, acabado, lubricación del hilo, estampado, recubrimiento, acabado y lavado de prendas.</p></div>";
+
+}
+
+function viewInfoDib(){
+    noneInfo();
+    card_built.innerHTML = "<img src='./sources/img/Planta alta/Dibujo.jpg' class = 'card-img-top' alt='img_dib'><div class='card-body' id='card_body'> <h5 class='card-title' id='title-built'>Taller de Dibujo</h5> <p class='card-text' id='text-built'>El Taller de Introducción a la Pintura y Dibujo te proporciona los elementos artísticos para explorar y desarrollar sus habilidades, creatividad, talento y sensibilidad hacia las manifestaciones de la expresión humana a través de la percepción de formas y colores, incrementando tu formación por medio del razonamiento para identificar las tendencias plásticas contemporáneas.</p></div>";
+};
+function viewInfoTeo(){
+    noneInfo()
+    card_built.innerHTML = "<img src='./sources/img/Planta alta/Teoria.jpg' class = 'card-img-top' alt='img_teo'><div class='card-body' id='card_body'> <h5 class='card-title' id='title-built'>Taller de Teoria</h5> <p class='card-text' id='text-built'>Taller para el estudio de reglas, técnicas, principios y conocimientos acerca del diseño de artesanías, prescindiendo de sus posibles aplicaciones prácticas.</p></div>";
+};
+function viewInfoCom(){
+    noneInfo();
+    card_built.innerHTML = "<img src='./sources/img/Planta alta/Computo.jpg' class = 'card-img-top' alt='img_com'><div class='card-body' id='card_body'> <h5 class='card-title' id='title-built'>Taller de Computo</h5> <p class='card-text' id='text-built'>Promover y apoyar los programas de capacitación y el desarrollo de la cultura informática y de la comunicación para la comunidad del Centro Universitario.</p></div>";
+};
+function viewInfoVit(){
+    noneInfo();
+    card_built.innerHTML = "<img src='./sources/img/Planta alta/Vitrales.jpg' class = 'card-img-top' alt='img_vit'><div class='card-body' id='card_body'> <h5 class='card-title' id='title-built'>Taller de Vitrales</h5> <p class='card-text' id='text-built'>Laboratorio para el diseño y elaboración de impresiones serigráficas en artículos varios, especialmente en papel, por medio de técnicas artesanales. Para realizar la impresión se apoya sobre el soporte a estampar y se pasa la tinta a través del calado con esponja, pincel o pulverizadores.</p></div>";
+};
+function viewInfoMul(){
+    noneInfo();
+    card_built.innerHTML = "<img src='./sources/img/Planta alta/Multiple.jpg' class = 'card-img-top' alt='img_mul'><div class='card-body' id='card_body'> <h5 class='card-title' id='title-built'>Taller de uso Multiple</h5> <p class='card-text' id='text-built'>Esta sala ofrece múltiples posibilidades, ya que puede ser empleado como salón de clases, aula de capacitación, salón de juntas, sala de proyección de material, etc.</p></div>";
 
 }
