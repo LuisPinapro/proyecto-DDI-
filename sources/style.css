@@ -58,7 +58,7 @@ section.section-one{
     padding-bottom: 35px;
 }
 footer.foot-light{
-    padding-top: 10%;
+    padding-top: 5%;
     background-color: var(--udg-secundary);
 }
 p.p-overflow{
@@ -76,3 +76,16 @@ p.p-overflow{
     margin-top: 80px;
     border: none;
 }
+#icons-info{
+    text-decoration: none;
+    color: white;
+}
+#final-foot{
+    font-size: 12px;
+    border-top-style: solid;
+    border-top-width: 1.5px;
+    border-top-color: gray;
+    margin-top: 35px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+};
