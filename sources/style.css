@@ -2,9 +2,7 @@
     --udg-primary : #b12028;
     --udg-secundary : #202945
 }
-.navbar-collapse{
-    flex-grow: inherit!important;
-}
+
 .nav-item{
     font-size: larger;
 }
@@ -15,17 +13,17 @@ h1.line-effect{
 h1.line-effect::after, h1.line-effect::before{
     content: "";
     position: absolute;
-    width: 200px;
+    width: 100%;
     height: 10px;
     background-color: var(--udg-secundary);
     top: 16px
 }
 
 h1.line-effect::before{
-    left: -210px;
+    left: -110%;
 }
 h1.line-effect::after{
-    right: -210px;
+    right: -110%;
 }
 h2.line-effect{
     display: inline-block;
@@ -34,17 +32,17 @@ h2.line-effect{
 h2.line-effect::after, h2.line-effect::before{
     content: "";
     position: absolute;
-    width: 200px;
+    width: 100%;
     height: 10px;
     background-color: var(--udg-primary);
     top: 16px
 }
 
 h2.line-effect::before{
-    left: -210px;
+    left: -110%;
 }
 h2.line-effect::after{
-    right: -210px;
+    right: -110%;
 }
 p.line{
     content: "";
@@ -62,9 +60,11 @@ footer.foot-light{
     background-color: var(--udg-secundary);
 }
 p.p-overflow{
-    overflow: auto;
-    padding-right: 36px;
     text-align: justify;
+}
+p.p-basic{
+    text-align: justify;
+    overflow: auto;
 }
 #card_built{
     margin-right: 15px;
@@ -92,4 +92,31 @@ p.p-overflow{
 div.info-final{
     padding-top: 30px;
     padding-bottom: 25px;
-};
+}
+img.img-nav{
+    width: 100%;
+    height: 100%;
+}
+p.p-foot{
+    text-align: justify;
+}
+@media (max-width: 575.98px){ 
+    img.img-nav{
+        width: 35%;
+        content: url(./icons/icon_udg.png);
+    }
+    p.p-foot{
+        font-size: small;
+        text-align: center;
+    }
+    h3.title-foot{
+        font-size: large; 
+        font-weight: bold;
+    }
+    ul.p-foot{
+        font-size: small;
+    }
+    p.p-overflow{
+        text-align: center;
+    }
+}
