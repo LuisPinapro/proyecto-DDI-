@@ -100,6 +100,7 @@ img.img-nav{
 p.p-foot{
     text-align: justify;
 }
+
 @media (max-width: 575.98px){ 
     img.img-nav{
         width: 35%;
@@ -119,4 +120,34 @@ p.p-foot{
     p.p-overflow{
         text-align: center;
     }
+    h2.line-effect::before {
+        left: -30%;
+    }
+    h2.line-effect::after {
+        right: -30%;
+    }
+    h2.line-effect::after, h2.line-effect::before{
+        content: "";
+        position: absolute;
+        width: 20%;
+        height: 10px;
+        background-color: var(--udg-primary);
+        top: 16px
+    }
+    #card_built{ 
+        width: auto!important;
+        margin: 0;
+    }
+    #card_built2{ 
+        width: auto!important;
+        margin: 0;
+    }
+    #cards-info1{
+        flex-direction: column-reverse;
+    }
+    #cards-info2{
+        flex-direction: column;
+    }
+
+
 }
