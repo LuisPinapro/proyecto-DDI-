@@ -50,6 +50,7 @@ function viewInfoMul(){
     card_built.innerHTML = "<img src='./sources/img/Planta alta/Multiple.jpg' class = 'card-img-top' alt='img_mul'><div class='card-body' id='card_body'> <h5 class='card-title' id='title-built'>Taller de uso Multiple</h5> <p class='card-text' id='text-built'>Esta sala ofrece múltiples posibilidades, ya que puede ser empleado como salón de clases, aula de capacitación, salón de juntas, sala de proyección de material, etc.</p><a href='#multiples' class='btn btn-primary'>Mas información</a></div>";
 
 };
+$('img[usemap]').rwdImageMaps();
 $(document).ready(function(e) {
     $('img[usemap]').rwdImageMaps();
 });
